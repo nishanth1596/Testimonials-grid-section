@@ -1,0 +1,57 @@
+@media (max-width: 375px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    padding: 7.1rem 2.4rem 0 2.4rem;
+  }
+
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5 {
+    grid-area: auto;
+  }
+
+  .grid-1 {
+    height: 44.4rem;
+    width: 32.7rem;
+  }
+
+  .grid-1 .secondary-para {
+    padding-top: 4rem;
+    padding-right: 4.8rem;
+  }
+
+  .quotation {
+    right: 2.4rem;
+  }
+
+  .grid-2 {
+    height: 24rem;
+    width: 32.7rem;
+  }
+
+  .grid-2 .secondary-para,
+  .grid-3 .secondary-para,
+  .grid-3 .secondary-para,
+  .grid-5 .secondary-para {
+    padding-top: 1.6rem;
+    padding-right: 3.2rem;
+  }
+
+  .grid-3 {
+    width: 32.7rem;
+    height: 22.2rem;
+  }
+
+  .grid-4 {
+    width: 32.7rem;
+    height: 38.4rem;
+  }
+
+  .grid-5 {
+    width: 32.7rem;
+    height: 43.8rem;
+  }
+}
